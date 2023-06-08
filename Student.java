@@ -37,13 +37,15 @@ public class Student {
     public void setEmail(String email) {
         this.email = email;
     }
-    public void setdob(String name) {
-        this.name = dob;
-    }
 
     public String getdob() {
         return dob;
     }
+
+    public void setdob(String name) {
+        this.name = dob;
+    }
+
 
     // Override toString() method
 
